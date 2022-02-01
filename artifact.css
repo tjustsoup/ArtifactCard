@@ -1,0 +1,52 @@
+:root {
+    --team: black;
+  }
+  
+  body {
+    font-family: 'Garamond';
+  }
+  
+  #square {
+    background-color: var(--team);
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .numberText {
+    fill: black;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  
+  .text {
+    fill: white;
+  }
+  
+  .miniText {
+    fill: white;
+    font-size: 10px;
+  }
+  
+  #inner {
+    fill: grey;
+  }
+  
+  .circle {
+    fill: lightblue;
+    stroke: black;
+    stroke-width: 2px;
+  }
+  
+  .textbox {
+    stroke: black;
+    stroke-width: 2px;
+    fill: rgba(200, 200, 200, 0.2);
+  }
+  
+  .triAny {
+    fill: gold;
+    stroke: black;
+    stroke-width: 3px;
+  }
+  

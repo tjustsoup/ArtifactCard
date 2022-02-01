@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="artifact.css">
+  </head>
+    <body>
+      <svg id="square">
+        <!-- Outer + Components -->
+        <rect x="20" y="20" rx="10" ry="10" height="260" width="260" id="inner" />
+        <circle cx="255" cy="45" r="20" id="costCircle" class="circle" />
+        <circle cx="255" cy="90" r="20" id="alignment" class="circle" />
+        <rect x="25" y="35" rx="3" ry="3" height="40" width="100" class="textbox" id="cardNameBox" />
+        <rect x="30" y="180" rx="3" ry="3" height="80" width="240" class="textbox" id="rulesTextBox" />
+
+        <!-- Triangles -->
+        <polygon points="100,0 200,0 150,50" class="triAny" id="triW" />
+        <polygon points="0,100 0,200 50,150" class="triAny" id="triA" />
+        <polygon points="100,300 150,250, 200,300 " class="triAny" id="triS" />
+        <polygon points="300,100 250,150 300,200" class="triAny" id="triD" />
+
+        <!-- Overlaying Text -->
+        <text x="28" y="60" id="cardName" class="text">Card name</text>
+        <text x="245" y="58" id="cardCost" class="numberText">0</text>
+        <text x="35" y="220" id="rulesText" class="text"></text>
+        <text x="70" y="275" id="botLeftText" class="miniText">Set#</text>
+        <text x="210" y="275" id="botRightText" class="miniText">Artist</text>
+
+        <!-- WASD Values text -->
+        <text x="139" y="34" id="valW" class="numberText">0</text>
+        <text x="8" y="163" id="valA" class="numberText">0</text>
+        <text x="139" y="293" id="valS" class="numberText">0</text>
+        <text x="272" y="163" id="valD" class="numberText">0</text>
+
+      </svg>
+    </body>
+  <script src="artifact.js"></script>
+</html>
